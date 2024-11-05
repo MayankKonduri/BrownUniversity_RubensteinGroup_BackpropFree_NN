@@ -46,7 +46,3 @@ pip install jupyter pytorch torchvision torchaudio torch-geometric networkx matp
 git clone https://github.com/yourusername/BrownUniversity_BrownUniversity_Dr.Rubenstein_BackpropFree_NN.git
 ls
 python3 [Code To Be Compiled]
-
-
-
-
