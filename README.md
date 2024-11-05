@@ -1,4 +1,4 @@
-1. Boltzmann Machine with Forward-Forward Algorithm
+1. **Boltzmann Machine with Forward-Forward Algorithm**
 Structure: Defines a Boltzmann Machine with visible and hidden layers.
 Training Process:
 Uses two forward passes: one with positive (real) data and one with negative (generated) data.
