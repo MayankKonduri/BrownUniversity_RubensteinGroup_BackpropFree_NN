@@ -1,4 +1,4 @@
-## Model Summaries
+## RubensteinLab Project Summary (November 2023 - Present)
 
 ### 1. **Boltzmann Machine with Forward-Forward Algorithm**
    - **Structure**: Defines a Boltzmann Machine with visible and hidden layers.
@@ -21,3 +21,14 @@
      - Computes loss based on the difference between positive and negative activations.
      - Updates weights using the optimizer without relying on gradients from backpropagation.
    - **Key Feature**: Utilizes the Forward-Forward approach to avoid backpropagation, aiming for a more scalable, hardware-friendly training method.
+
+## References
+
+[1] Geoffrey Hinton. *The forward-forward algorithm: Some preliminary investigations.* Google Brain, (1):1–16, 2022.
+
+[2] William Poole. *Detailed balanced chemical reaction networks as generalized Boltzmann machines.* (1):1–15, 2022.
+
+[3] Logan G. Wright. *Deep physical neural networks trained with backpropagation.* Nature, 601(7):549–555, 2022.
+
+
+
