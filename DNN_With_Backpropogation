@@ -1,0 +1,40 @@
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+class BackpropDNN(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super(BackpropDNN, self).__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size)
+        self.fc2 = nn.Linear(hidden_size, output_size)
+    
+    def forward(self, x):
+        x = torch.relu(self.fc1(x))
+        x = torch.sigmoid(self.fc2(x))
+        return x
+
+input_size = 10
+hidden_size = 20
+output_size = 1
+learning_rate = 0.01
+epochs = 100
+
+model = BackpropDNN(input_size, hidden_size, output_size)
+criterion = nn.MSELoss()
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+for epoch in range(epochs):
+    data = torch.randn(64, input_size)
+    target = torch.randn(64, output_size)
+    
+    output = model(data)
+    loss = criterion(output, target)
+    
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+    
+    if (epoch + 1) % 10 == 0:
+        print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
+
+print("Training with backpropagation completed.")
