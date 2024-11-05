@@ -22,6 +22,11 @@
      - Updates weights using the optimizer without relying on gradients from backpropagation.
    - **Key Feature**: Utilizes the Forward-Forward approach to avoid backpropagation, aiming for a more scalable, hardware-friendly training method.
 
+### 4.Hebbian Loss (Intro Project)
+   - Hebbian Loss is a learning principle based on the concept that "cells that fire together, wire together." It focuses on adjusting synaptic strength between neurons in response to correlated activity. In neural networks, Hebbian Loss updates weights based on the co-activation of input features, enabling unsupervised learning without traditional gradient descent methods.
+   - This was my introduction to learning neural networks, providing a foundational understanding of how neural connections adapt over time and inspiring further exploration into the intersection of neuroscience and machine learning.
+
+
 ## References
 
 [1] Geoffrey Hinton. *The forward-forward algorithm: Some preliminary investigations.* Google Brain, (1):1–16, 2022.
