@@ -38,4 +38,20 @@
 [3] Logan G. Wright. *Deep physical neural networks trained with backpropagation.* Nature, 601(7):549–555, 2022.
 
 
+## Installation
+
+To install the required libraries, run:
+
+```bash
+pip install jupyter pytorch torchvision torchaudio torch-geometric networkx matplotlib
+
+git clone https://github.com/yourusername/BrownUniversity_BrownUniversity_Dr.Rubenstein_BackpropFree_NN.git
+
+
+ls
+
+python3 [Code To Be Compiled]
+
+
+
 
