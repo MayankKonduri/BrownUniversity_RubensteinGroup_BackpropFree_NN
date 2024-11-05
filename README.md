@@ -37,7 +37,7 @@
 
 [3] Logan G. Wright. *Deep physical neural networks trained with backpropagation.* Nature, 601(7):549–555, 2022.
 
-## Installation
+# Running the Code
 
 To install the required libraries, run:
 
