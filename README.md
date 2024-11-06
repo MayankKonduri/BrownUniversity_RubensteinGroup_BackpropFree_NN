@@ -32,7 +32,7 @@
 ## References
 
 [1] Geoffrey Hinton. *The forward-forward algorithm: Some preliminary investigations.* Google Brain, (1):1–16, 2022.
-
+ 
 [2] William Poole. *Detailed balanced chemical reaction networks as generalized Boltzmann machines.* (1):1–15, 2022.
 
 [3] Logan G. Wright. *Deep physical neural networks trained with backpropagation.* Nature, 601(7):549–555, 2022.
