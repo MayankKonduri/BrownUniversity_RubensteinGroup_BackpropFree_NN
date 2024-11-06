@@ -43,6 +43,6 @@ To install the required libraries, run:
 
 ```bash
 pip install jupyter pytorch torchvision torchaudio torch-geometric networkx matplotlib
-git clone https://github.com/yourusername/BrownUniversity_BrownUniversity_RubensteinGroup_BackpropFree_NN.git
+git clone https://github.com/yourusername/BrownUniversity_RubensteinGroup_BackpropFree_NN.git
 ls
 python3 [Code To Be Compiled]
