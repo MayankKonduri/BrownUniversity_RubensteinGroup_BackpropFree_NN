@@ -1,4 +1,4 @@
-## RubensteinLab Project Summary (November 2023 - Present) 
+## RubensteinLab Project Summary
 
 ### 1. **Boltzmann Machine with Forward-Forward Algorithm**
    - **Structure**: Defines a Boltzmann Machine with visible and hidden layers.
