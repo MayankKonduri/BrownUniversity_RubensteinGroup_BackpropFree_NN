@@ -36,13 +36,3 @@
 [2] William Poole. *Detailed balanced chemical reaction networks as generalized Boltzmann machines.* (1):1–15, 2022.
 
 [3] Logan G. Wright. *Deep physical neural networks trained with backpropagation.* Nature, 601(7):549–555, 2022.
-
-# Running the Code
-
-To install the required libraries, run:
-
-```bash
-pip install jupyter pytorch torchvision torchaudio torch-geometric networkx matplotlib
-git clone https://github.com/yourusername/BrownUniversity_RubensteinGroup_BackpropFree_NN.git
-ls
-python3 [Code To Be Compiled]
