@@ -42,7 +42,7 @@ class DNNWithoutBackprop(nn.Module):
 
 def generate_data(num_samples=1000, input_size=10, output_size=1):
     X = torch.randn(num_samples, input_size)
-    y = (X.sum(dim=1, keepdim=True) > 0).float()  # Binary classification based on sum
+    y = (X.sum(dim=1, keepdim=True) > 0).float()
     return X, y
 
 def train_without_backprop(model, X, y, epochs=100, lr=0.01):
